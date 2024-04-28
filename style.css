@@ -72,3 +72,23 @@ border-radius: 50%;
         transform: rotate(360deg);
     }
      }
+@media screen and (max-width: 1200px) {
+    .container {
+      width: 95%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .container {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 85%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .container {
+      width: 100%;
+    }
+  }
